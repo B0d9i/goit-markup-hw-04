@@ -232,7 +232,7 @@ body {
 }
 
 .team-member-info {
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
 }
 
@@ -254,6 +254,7 @@ body {
   justify-content: center;
   gap: 24px;
   list-style: none;
+  padding: 0 16px;
 }
 
 .social-item {
