@@ -207,6 +207,7 @@ body {
 /* Team Section */
 .team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .section-title {
@@ -221,6 +222,8 @@ body {
   display: flex;
   gap: 24px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .team-item {
@@ -229,9 +232,10 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
               0px 1px 1px rgba(46, 47, 66, 0.16),
               0px 2px 1px rgba(46, 47, 66, 0.08);
+  width: calc((100% - 72px) / 4);
 }
 
-.team-member-info {
+.team-member-card {
   padding: 32px 0;
   text-align: center;
 }
@@ -246,6 +250,7 @@ body {
 
 .team-member-role {
   font-size: 16px;
+  color: #434455;
   margin-bottom: 8px;
 }
 
@@ -254,7 +259,8 @@ body {
   justify-content: center;
   gap: 24px;
   list-style: none;
-  padding: 0 16px;
+  margin: 0;
+  padding: 0 16px 32px;
 }
 
 .social-item {
